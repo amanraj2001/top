@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: black;
+            overflow: auto;
+        }
+        header img{
+            float: left;
+            
+        }
+       nav div{
+            margin-top: 12px;
+        }
+        nav li{
+            float: left;
+            text-align: center;
+            width: 78px;
+            list-style: none;
+
+            
+        }
+        nav li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav a:hover{
+            color: brown;
+            cursor: pointer;
+            background-color: aqua;
+        }
+        nav ul{
+            
+            margin: auto;
+            width: 20%;
+        }
+
+        /* side */
+        
+        .side{
+            position: absolute;
+            top: auto;
+            left: 0;
+            width: 182px;
+            margin: auto;
+            /* width: 50%; */
+            /* border: 2px solid black; */
+            padding: 2px 10px;
+            font-size: 25px;
+        }
+        .side li{
+            list-style: none;
+            margin: 20px 0;
+            
+        }
+        .side ul{
+            margin: 12px 0;
+            padding: 12px 0;
+        }
+         
+        .side li a{
+            text-decoration: none;
+            color:rgb(251, 164, 124);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .artc{
+            /* float: left; */
+            margin-left: 182px;
+            /* width: 100%; */
+        }
+        article #one,#two,#three,#four{
+            display: flex;
+           /* margin: 12px; */
+           /* border: 2px solid teal; */
+        }
+        article #one,#three{
+            background-color: rgb(255, 255, 183);
+        }
+        article #two,#four{
+            background-color: rgb(176, 255, 255);
+        }
+        .artc img{
+            margin: 15px;
+            
+        }
+  
+        .artc p{
+            font-size: 20px;
+            margin-top: 20px;
+
+        }
+        /* footer */
+        footer{
+            display: flex;
+            margin: auto;
+            width: 100%;
+            background-color: grey;
+        }
+        footer div{
+            margin: auto;
+            width: 10%;
+        }
+        footer ul li{
+            list-style: none;
+            
+        }
+        footer a{
+            text-decoration: none;
+            color: rgb(128, 253, 151);
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        
+            <img src="./download.jfif" alt="Error" width="60px" srcset="">
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="./home.html" target="_blank">Home</a></li>
+                    <li><a href="./about.html" target="_blank">About</a></li>
+                    <li><a href="./contact.html" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section -->
+
+    <section>
+        
+            <div class="side">
+                <p>Main Bar</p>
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Expertise</a></li>
+                    <li><a href="#">Technologies</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Approach</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+
+        <article>
+            
+            <div id="one"  class="artc">
+                <img src="./download (1).png"alt="error" srcset="">
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem consequuntur dolores inventore numquam architecto ducimus reprehenderit. Nobis, asperiores. Aliquid, dolore iste omnis cumque facere sequi. , adipisicing elit. Eveniet accusamus quasi doloribus nisi in.</p>
+            </div>
+            <div id="two" class="artc">
+                <p>Lorem ipsum dolor sit amet consect Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus labore cupiditate, recusandae iusto deleniti molestiae laboriosam nobis accusamus consectetur officiis ducimus quisquam, fugit reprehenderit voluptatibus, impedit rerum quasi earum repellendus odit. Neque. etur, adipisicing elit. Eveniet accusamus quasi doloribus nisi in.</p>
+                <img src="./download (3).png"alt="error" srcset="">
+            </div>
+            <div id="three" class="artc">
+                <img src="./download.png"alt="error" srcset="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet accusamus quasi doloribus nisi in.</p>
+            </div>
+            <div id="four" class="artc">
+                <p>Lorem ipsum dolor sit amet consect Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus labore cupiditate, recusandae iusto deleniti molestiae laboriosam nobis accusamus consectetur officiis ducimus quisquam, fugit reprehenderit voluptatibus, impedit rerum quasi earum repellendus odit. Neque. etur, adipisicing elit. Eveniet accusamus quasi doloribus nisi in.</p>
+                <img src="./download (4).png"alt="error" srcset="">
+            </div>
+            <div id="one"  class="artc">
+                <img src="./download (1).png"alt="error" srcset="">
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem consequuntur dolores inventore numquam architecto ducimus reprehenderit. Nobis, asperiores. Aliquid, dolore iste omnis cumque facere sequi. , adipisicing elit. Eveniet accusamus quasi doloribus nisi in.</p>
+            </div>
+            <div id="two" class="artc">
+                <p>Lorem ipsum dolor sit amet consect Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas temporibus labore cupiditate, recusandae iusto deleniti molestiae laboriosam nobis accusamus consectetur officiis ducimus quisquam, fugit reprehenderit voluptatibus, impedit rerum quasi earum repellendus odit. Neque. etur, adipisicing elit. Eveniet accusamus quasi doloribus nisi in.</p>
+                <img src="./download (3).png"alt="error" srcset="">
+            </div>
+            
+            
+        </article>
+    </section>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="#">Stores</a></li>
+                <li><a href="#">New Collection</a></li>
+                <li><a href="#">Availability</a></li>
+                <li><a href="#">Stocks</a></li>
+                <li><a href="#">Supreme</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Stores</a></li>
+                <li><a href="#">New Collection</a></li>
+                <li><a href="#">Availability</a></li>
+                <li><a href="#">Stocks</a></li>
+                <li><a href="#">Supreme</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Stores</a></li>
+                <li><a href="#">New Collection</a></li>
+                <li><a href="#">Availability</a></li>
+                <li><a href="#">Stocks</a></li>
+                <li><a href="#">Supreme</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>
